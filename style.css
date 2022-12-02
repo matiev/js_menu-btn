@@ -1,7 +1,6 @@
 * {
     transition: .4s all;
     color: red;
-    background-color: blue;
   }
   .menu {
     display: flex;
