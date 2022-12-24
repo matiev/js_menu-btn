@@ -10,6 +10,7 @@
   z-index: 5;
   background-color: blue;
   color: blue;
+  border: 1px solid blue;
 }
 .menu__line1 {
   position: absolute;
