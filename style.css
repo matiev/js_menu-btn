@@ -9,6 +9,7 @@
   background-color: #333;
   z-index: 5;
   background-color: blue;
+  color: blue;
 }
 .menu__line1 {
   position: absolute;
