@@ -1,67 +1,68 @@
 * {
-    transition: .4s all;
-  }
-  .menu {
-    display: flex;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    background-color: #333;
-    z-index: 5;
-  }
-  .menu__line1 {
-    position: absolute;
-    width: 20px;
-    height: 3px;
-    background-color: #FFF;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .menu__line2 {
-    position: absolute;
-    width: 20px;
-    height: 3px;
-    background-color: #FFF;
-    top: 21px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .menu__line3 {
-    position: absolute;
-    width: 20px;
-    height: 3px;
-    background-color: #FFF;
-    top: 9px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  transition: .4s all;
+}
+.menu {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  background-color: #333;
+  z-index: 5;
+  background-color: blue;
+}
+.menu__line1 {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #FFF;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu__line2 {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #FFF;
+  top: 21px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.menu__line3 {
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: #FFF;
+  top: 9px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /*  
 .active {
-  transform: rotate(-90deg);
+transform: rotate(-90deg);
 }
 */
-  .rotate1 {
-    left: 5px;
-    top: 14px;
-    transform: rotate(-45deg);
-    transform-origin: center;
-  }
-  .rotate2 {
-    left: 5px;
-    top: 14px;
-    transform: rotate(45deg);
-    transform-origin: center;
-  }
-  .sidebar {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 100vh;
-    background-color: gray;
-  }
-  .shw {
-     display: block;
-  }
+.rotate1 {
+  left: 5px;
+  top: 14px;
+  transform: rotate(-45deg);
+  transform-origin: center;
+}
+.rotate2 {
+  left: 5px;
+  top: 14px;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+.sidebar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: gray;
+}
+.shw {
+    display: block;
+}
