@@ -11,12 +11,13 @@ window.addEventListener('click', event => {
         menuLine2.classList.add('rotate1');
         menuLine3.classList.add('rotate2');
         aside.classList.add('shw');
-  } else if (!event.target.closest('.sidebar') && 
+    } 
+    else if (!event.target.closest('.sidebar') && 
   	aside.closest('.shw')) {
   	    menu.classList.remove('active');
         menuLine1.style.display = 'block';
         menuLine2.classList.remove('rotate1');
         menuLine3.classList.remove('rotate2');
         aside.classList.remove('shw');
-  }
+    }
 })
