@@ -1,5 +1,7 @@
 * {
   transition: .4s all;
+  margin: 0;
+  padding: 0;
 }
 .menu {
   display: flex;
