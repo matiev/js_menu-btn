@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   background-color: #fff;
+  font: 16px 'Verdana';
 }
 .menu {
   display: flex;
