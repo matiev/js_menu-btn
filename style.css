@@ -4,6 +4,7 @@
   padding: 0;
   font: 16px Verdana;
   border-radius: 0%;
+  height: 100%;
 }
 .menu {
   display: flex;
